@@ -15,8 +15,6 @@ This repository contains the source code for the **Lendsqr FP News** application
 - [Testing](#testing)
 - [Error Handling](#error-handling)
 - [Over-the-Air Updates](#over-the-air-updates)
-- [Contribution](#contribution)
-- [License](#license)
 
 ## Features
 
@@ -58,7 +56,7 @@ The following Firebase services are integrated:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusernamelendsqr-fp-news.git
+   git clone https://github.com/codefreak13/lendsqr-fp-news.git
 
    cd lendsqr-fp-news
    ```
