@@ -84,7 +84,8 @@ const useAuth = () => {
 
   const goBack = () => navigation.goBack();
 
-  const onPress = (item: Character) => {
+  const onPress = async (item: Character) => {
+    analytics.trackItemDetailPress(item);
     navigation.navigate(APP_ROUTE.DETAIL, item);
   };
 
