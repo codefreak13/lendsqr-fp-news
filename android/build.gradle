@@ -6,7 +6,8 @@ buildscript {
         targetSdkVersion = 34
         ndkVersion = "26.1.10909125"
         kotlinVersion = "1.9.22"
-    }
+        googlePlayServicesAuthVersion = "20.7.0"    
+        }
     repositories {
         google()
         mavenCentral()
@@ -15,6 +16,9 @@ buildscript {
         classpath("com.android.tools.build:gradle")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath 'com.google.gms:google-services:4.4.2'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.0'
+        classpath 'com.google.firebase:perf-plugin:1.4.2'
     }
 }
 

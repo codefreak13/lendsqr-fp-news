@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">lendsqrFpNews</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">VbEPx2cq5Gc4jkYp5ig2xqlX2dxTElSqpv4Hx</string>
 </resources>
